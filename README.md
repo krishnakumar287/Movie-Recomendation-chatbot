@@ -7,7 +7,8 @@ A simple React-based chatbot that recommends movies based on user preferences. T
 🚀 Live Demo
 
 
-Click here to view the chatbot
+[Click here to view the chatbot](https://krishnakumar287.github.io/Movie-Recomendation-chatbot)
+
 
 
 📌 Features
@@ -71,7 +72,8 @@ Open http://localhost:5173/ in your browser.
 🚀 Deploying to GitHub Pages
 
 
-To deploy the chatbot, run:
+To deploy the chatbot, 
+run:
 
 
 npm run deploy
@@ -81,7 +83,16 @@ npm run deploy
 Make sure to configure vite.config.js with:
 
 
-base: "/Movie-Recomendation-chatbot/",
-
+const BASE_URL = "/Movie-Recomendation-chatbot/";
+export default {
+  base: BASE_URL,
+};
 
 Made with ❤️ by krishnakumar287
+
+
+🔗 Project Links
+
+
+- **Live Demo:** [Movie Recommendation Chatbot](https://krishnakumar287.github.io/Movie-Recomendation-chatbot)
+- **GitHub Profile:** [krishnakumar287](https://github.com/krishnakumar287)
